@@ -1,0 +1,2 @@
+# fish share configs
+
