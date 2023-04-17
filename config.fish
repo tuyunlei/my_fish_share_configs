@@ -8,3 +8,6 @@ source $ROOT/aliases.fish
 
 # - custom configs
 
+set fish_greeting ""
+bind \cq 'beginning-of-line' 'nextd-or-forward-word' 'backward-kill-line'
+
