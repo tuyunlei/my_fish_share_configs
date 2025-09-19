@@ -1,7 +1,7 @@
 # - general configs
 
 set ROOT (status dirname)
-set -a fish_function_path "$ROOT/functions"
+set -p fish_function_path "$ROOT/functions"
 
 set -x LESS '--mouse'
 set -x HOMEBREW_NO_ENV_HINTS
