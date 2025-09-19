@@ -80,9 +80,9 @@ fzf_configure_bindings --directory=\ct
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    if test "$TERM_PROGRAM" = "iTerm.app"
-        source ~/.iterm2_shell_integration.fish
-    end
+    # if test "$TERM_PROGRAM" = "iTerm.app"
+    #     source ~/.iterm2_shell_integration.fish
+    # end
 
     set -gx GPG_TTY (tty)
 
