@@ -59,6 +59,11 @@ function fish_prompt --description 'Write out the prompt'
     echo -n -s (set_color $duration_color) "["$duration"] " (set_color $color_cwd) (prompt_pwd) $normal (fish_vcs_prompt) $normal " "$prompt_status $suffix " "
 end
 
+# - fish keybindings
+function fish_user_key_bindings
+    fish_vi_key_bindings insert
+end
+
 # - custom configs
 
 set fish_greeting ""
