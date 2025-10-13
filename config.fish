@@ -90,6 +90,7 @@ if status is-interactive
     vfox activate fish | source
     rbenv init - fish | source
     jenv init - fish | source
+    nodenv init - fish | source
     pyenv init - fish | source
     # pyenv virtualenv-init - fish | source
 
@@ -97,4 +98,5 @@ if status is-interactive
     #     eval (zellij setup --generate-auto-start fish | string collect)
     #     and exit
     # end
+    fish_config theme choose Dracula
 end

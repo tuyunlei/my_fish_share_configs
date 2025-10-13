@@ -1,4 +1,7 @@
 abbr -a -           'cd -'
+abbr -a ...         '../..'
+abbr -a ....        '../../..'
+abbr -a .....       '../../../..'
 abbr -a cpr         'cp -r'
 abbr -a dust1       'dust -d 1'
 abbr -a f           'open -R'
